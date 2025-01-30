@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sora, sans-serif;
+    /* scroll-behavior: smooth; */
+}
+   
+.nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid black;
+}
+.logo{
+    height: 70px;
+    width: 200px;
+    /* background-color: rgb(158, 158, 192); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.main{
+
+    display: flex;
+    margin-left: 300px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.im2{
+    height: 50px;
+    width: 100px;
+    /* background-color: rgb(144, 144, 168); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    overflow:scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.innerbox{
+    height: 100%;
+    width: fit-content;
+    /* background-color: blue; */
+    display: flex;
+    /* gap: 10px; */
+    animation:scroll 50s infinite linear;
+    /* scroll-behavior: smooth; */
+}
+.imges{
+    height: 100%;
+    width: 250px;
+    /* background-color: rgb(197, 75, 100); */
+}
+.im{
+    height: 50px;
+    width: 50px;
+    /* background-color: rgb(144, 144, 168); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+@keyframes scroll{
+0%{
+    transform: translateX(0);
+}
+100%{
+    transform: translateX(-2290px);
+}
+}
+.search{
+    height: 500px;
+    width: 100%;
+    background: rgb(196,181,253);
+     background: linear-gradient(107deg, rgba(196,181,253,1) 0%, rgba(53,98,241,1) 47%, rgba(147,51,234,1) 98%);
+     display: flex;
+     align-items: centr;
+     justify-content:center;
+     padding-top:50px;
+     font-size: 25px;
+
+
+}
+.w{
+    padding-left: 40px;
+}
+.p{
+    font-size:17px ;
+    
+}
+.pad{
+    padding-left: 50px;
+}
+.h{
+    height: 100px;
+    width: 500px;
+    /* background-color: black; */
+    color: white;
+}
+.i input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+
+   
+}
+.icon{
+    height: 100px;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.innerbox img{
+    height: 100%;
+    width: 100%;
+}
+.sea{
+    height:30px ;
+    width: 100px;
+    background-color: rgba(197, 191, 191, 0.425);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 500px;
+    width: 100%;
+    /* background-color: rgb(11, 110, 156); */
+    /* display: flex; */
+
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.name{
+    height: 100px;
+    width: 35%;
+    /* background-color: blueviolet; */
+    margin-left: 35%;
+    font-size: 20px;
+    
+}
+.na{
+    color: #4ADE80;
+    margin-left: 20px;
+    f
+}
+.cartbox{
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+}
+.cartbox{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.cartb1{
+    height: 330px;
+    width: 22%;
+    background-color: aqua;
+    
+}
+.imgae{
+    height: 60%;
+    width: 100%;
+    background-color: darkslategray;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://thegrowskills.com/assets/demo%20thumbnail-uWXu5v7X.webp");
+}
+.image 
+.discription{
+    height: 40%;
+    width: 100%;
+    background-color: darkblue;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
